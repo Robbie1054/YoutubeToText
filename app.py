@@ -23,4 +23,4 @@ def get_output(transcript):
   print(output)
 
 if __name__ == "__main__":
-  url_format(url)
+  app.run(host='0.0.0.0', port=5000)
